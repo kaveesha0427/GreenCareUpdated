@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">GreenCare</string>
+    <string name="green_world_with_greencare">Green World with GreenCare</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="not_registered_sign_up_here">Not registered? Sign up here</string>
+    <string name="back_to_home">Back to Home</string>
+    <string name="classify">Classify</string>
+    <string name="choose_image">Choose Image</string>
+    <string name="name">Name</string>
+    <string name="account_details">Account Details</string>
+    <string name="contact_number">Contact Number</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="hello">Hello,</string>
+    <string name="fusariumwilt">Fusariumwilt</string>
+    <string name="prediction_history">Prediction History</string>
+</resources>

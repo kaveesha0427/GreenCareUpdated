@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".Main.LoginActivity"
+    android:orientation="vertical"
+    android:background="@drawable/signin_background_image"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="50dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:text="@string/green_world_with_greencare"
+            android:typeface="serif"
+            android:textColor="@color/common_google_signin_btn_text_dark"
+            android:layout_marginBottom="200dp"/>
+
+        <EditText
+            android:id="@+id/userEmailEText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:typeface="serif"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/gray"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/userPasswordEText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/gray"
+            android:hint="@string/password"
+            android:typeface="serif"
+            android:inputType="textPassword"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:autofillHints="" />
+
+        <Button
+            android:id="@+id/userLoginBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:padding="12dp"
+            android:typeface="serif"
+            android:text="@string/sign_in"
+            app:cornerRadius="12dp"
+            android:backgroundTint="@color/black"/>
+
+
+        <TextView
+            android:id="@+id/userRegisterTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:text="@string/not_registered_sign_up_here"
+            android:typeface="serif"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/loginBackBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:text="@string/back_to_home"
+            android:typeface="serif" />
+    </LinearLayout>
+</LinearLayout>

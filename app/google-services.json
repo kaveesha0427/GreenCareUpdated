@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "785963053485",
+    "project_id": "greencare-6db5b",
+    "storage_bucket": "greencare-6db5b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:785963053485:android:b57881e12e73601d473124",
+        "android_client_info": {
+          "package_name": "com.example.greencare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "785963053485-1p71334rvnsgm53ip5t76ef3p253f6g1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfotMMTi_AVyGFEgrKPZCeQp_0crCaY14"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "785963053485-1p71334rvnsgm53ip5t76ef3p253f6g1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
